@@ -78,7 +78,7 @@ A curated comparison of leading cloud-hosted PDF platforms, ranked by corporate 
 
 ## 💻 Open-Source GitHub Projects
 
-Explore the premier open-source cloud PDF toolkits, libraries, and self-hosted applications—**sorted in descending order by GitHub Stars_Count**. Each badge dynamically links directly to that repository's stargazers page.
+Explore the premier open-source cloud PDF toolkits, libraries, and self-hosted applications—**sorted in descending order by GitHub_Stars_Count**. Each badge dynamically links directly to that repository's stargazers page.
 
 1. **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** [![GitHub_Stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=social&color=white)](https://github.com/Stirling-Tools/Stirling-PDF/stargazers)  
    **The #1 self-hosted PDF manipulation suite on GitHub.** A locally hosted, complete web application for merging, splitting, converting, OCR-ing, watermarking, redacting, and signing PDFs without cloud subscription fees. All document processing stays strictly within your Docker container or on-premise infrastructure. **Best for:** Teams and self-hosters wanting an autonomous, private, zero-subscription alternative to Adobe Acrobat and Smallpdf.
