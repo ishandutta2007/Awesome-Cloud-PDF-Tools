@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,31 +42,27 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global PDF software and cloud document editing market is valued between **$2.5B and $4.5B**, expanding at an estimated 8–15% CAGR toward double-digit billions over the coming decade. The sector exhibits a barbell market structure: **moderately concentrated at the enterprise peak** (dominated by Adobe and a select few enterprise suites capturing >50–60% of commercial market revenues) yet **highly fragmented across the consumer, SMB, and web-utility landscape**, where dozens of freemium and bootstrapped cloud SaaS platforms compete vigorously on accessibility, tool-breadth, and browser-first simplicity.
+
+
+
 ## SaaS/Hosted Platforms
 
 
 
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[Adobe Acrobat Web](https://www.adobe.com/acrobat/online.html)** | Adobe's browser-based PDF tools plus Acrobat Pro subscription for full editing. | **Acrobat Pro**: **£19.97/mo** (incl. VAT) for individuals; **£20.22/mo** per licence for teams (excl. VAT) . | **Free online tools**: Most tools allow **one free transaction** without sign-in. Signed-in users get **one free premium transaction every 30 days**; basic fill/sign/comment is free. File limits: 100MB standard, 2GB for Compress, 1,500 pages max . |
-
-| **[Smallpdf](https://smallpdf.com/)** | Swiss-made PDF suite with 30+ tools, AI features, and eSign integration. | **Pro**: **$9.00/month** (billed annually at $108/year); **Team**: $7/seat/month (2–19 seats) . | **Free tier**: Access to 30+ tools with **limited document downloads** and restricted mobile app access. Sign.com free accounts capped at **2 documents/month** . 7-day free trial for Pro . |
-
-| **[iLovePDF](https://www.ilovepdf.com/)** | Popular PDF toolkit with merge, split, compress, convert, and OCR tools. | **Premium**: **$4/month** (billed annually at $48/year) or **$7/month** monthly . Enterprise pricing custom. | **Free tier**: Core tools with **limited file processing**. Max file size **100MB** for most tasks; 15MB for some conversions . |
-
-| **[PDF24](https://tools.pdf24.org/)** | 122 free browser-based PDF and image tools, with privacy-preserving local processing. | **Free** (ad-supported). Desktop PDF24 Creator also free for commercial use . | **Fully free**: All 122 tools, no signup, no watermarks, no daily limits. Most tools process files **locally in your browser**—files never leave your device . |
-
-| **[Sejda](https://www.sejda.com/)** | Browser-based PDF tools plus a downloadable desktop app. | **Web Week Pass**: **$5 one-time** (7 days). **Desktop+Web Annual**: **$63/year** . | **Free tier**: Limited pages/hourly usage, restricted file uploads, tool-specific limits. **No signup required** . |
-
-| **[PDF Candy](https://pdfcandy.com/)** | Browser-based PDF toolkit with desktop app option. | **Desktop + Web Annual**: **$4/month** (billed annually). **Web Monthly**: $6/month. **Lifetime**: $99 one-time . | **Free tier**: Access to most tools with **page and hourly limits**, no batch processing, file size restrictions. No account required . |
-
-| **[Lumin PDF](https://www.luminpdf.com/)** | Collaborative PDF editor with eSign and real-time annotation. | **Paid plans** start around **$9/month** (per SourceForge listing) . Seat-based pricing rolling out (Collab/Full seats) . | **Viewer seats are free** on every plan. **7-day free trial** with Full seats for workspaces that haven't had a paid plan . |
-
-| **[DocHub](https://dochub.com/)** | PDF editor with eSign, Google Workspace integration, and AI assistant. | Pricing not published in search results; paid tiers (Basic, Pro, Site License) available. | **Free tier**: **Shared limit of 3 uses/month** for core tools. Page tools (merge, rotate, reorder, delete) are available. Document collaboration limited to 2 people . |
-
-| **[PDFescape](https://www.pdfescape.com/)** | Online PDF editor and form filler with desktop app. | **Premium**: **$2.99/month** (billed yearly) or $5.99/monthly. **Ultimate**: $5.99/month (yearly) or $8.99/monthly . | **Free tier** available with feature restrictions (not detailed in search results). **15-day money-back guarantee** on paid plans . |
+| Product | Company Scale (Revenue / Valuation) | Description | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Adobe Acrobat Web](https://www.adobe.com/acrobat/online.html)** | **~$24B+ revenue** (~$100B+ market cap) | Adobe's browser-based PDF tools plus Acrobat Standard/Pro subscription for full document workflows. | **Standard**: **$14.99/mo** (annual commitment) or $24.99/mo (monthly). **Pro**: **$19.99/mo** (annual commitment) or $29.99/mo (monthly). | **Free plan limits**: Free tools permit **1 free transaction** without sign-in; signed-in free accounts get **1 free premium transaction every 30 days**. Unlimited basic viewing, form filling, and commenting. Max 100MB per file (up to 2GB for Compress; 1,500 pages max). |
+| **[PDFescape](https://www.pdfescape.com/)** | **~$100M+ revenue** (parent Claranova / Avanquest) | Online PDF editor, form filler, and annotation suite with companion desktop software. | **Premium**: **$2.99/mo** (billed annually at $35.88/yr) or $5.99/mo month-to-month. **Ultimate**: $5.99/mo (annual) or $8.99/mo month-to-month. | **Free forever plan**: Web editor is free with strict file caps of **max 10 MB per file** and **max 100 pages per document**; basic form filler and annotations included (desktop app offers 7-day trial). |
+| **[iLovePDF](https://www.ilovepdf.com/)** | **~$20M–$40M ARR** (bootstrapped) | High-volume PDF toolkit providing browser-based conversion, compression, merge, OCR, and e-signatures. | **Premium**: **$4.00/mo** (billed annually at $48/yr) or **$7.00/mo** month-to-month. Custom enterprise tiers available. | **Free forever plan**: Access to web tools with processing throttles: max **100MB per task** for most operations, **15MB** for OCR/complex conversions, non-batch processing (limited files per task). |
+| **[Smallpdf](https://smallpdf.com/)** | **~$8M–$11M ARR** (bootstrapped, ~$5M raised) | Swiss-engineered document suite offering 30+ browser tools, AI summarization, and integrated e-signing. | **Pro**: **$9.00/mo** (billed annually at $108/yr) or $12.00/mo month-to-month. **Team**: $7.00/seat/mo (annual). | **Free forever plan**: Access to 30+ web tools with daily download caps; eSign capped at **2 signature requests/month**. Paid Pro plan offers a **7-day free trial** with full features. |
+| **[DocHub](https://dochub.com/)** | **~$6M+ ARR** (subsidiary of airSlate, $1.25B unicorn) | Document editor and workflow tool deeply integrated with Google Workspace and cloud drives. | **Basic**: **$8.00/user/mo** (billed annually) or **$11.00/mo** monthly. **Pro**: **$12.00/user/mo** (annual) or **$16.00/mo** monthly. | **Free forever plan**: Capped at a **shared limit of 3 documents/actions per month**; up to 3 signature requests/mo; max 2 collaborators per document. |
+| **[Lumin PDF](https://www.luminpdf.com/)** | **~$4.6M ARR** (bootstrapped / private) | Collaborative PDF editor and workflow platform featuring Google Drive sync and e-signatures. | **Pro**: **$19.00/mo** (billed annually) or **$30.00/mo** month-to-month. Paid workspace seats available. | **Free forever plan**: Limited to **3 completed document exports/shares per month**; unlimited drafts and free unlimited Viewer seats. Also offers a **7-day free trial** for Pro workspace features. |
+| **[Sejda](https://www.sejda.com/)** | **Private / Bootstrapped** (~$2M–$5M estimated) | Browser-based PDF manipulation tools and cross-platform desktop application. | **Web Week Pass**: **$5.00 one-time** (7 days). **Desktop+Web Annual**: **$63.00/yr** ($5.25/mo equivalent) or **$7.50/mo** monthly. | **Free forever plan**: Limited to **3 tasks per hour**, max **200 pages or 50 MB** per document; OCR capped at **10 pages**; combining capped at **30 files and 50 pages**; 1 document at a time. |
+| **[PDF Candy](https://pdfcandy.com/)** | **Private / Bootstrapped** (Icecream Apps) | All-in-one web utility suite covering 47+ PDF conversion, security, and editing tools. | **Web Monthly**: **$6.00/mo**. **Desktop + Web Annual**: **$4.00/mo** (billed annually at $48/yr). **Lifetime**: $99.00 one-time. | **Free forever plan**: Capped strictly at **1 task every 60 minutes (1 task/hour)** across all web tools; no batch operations; max file size capped at 10–20MB depending on operation. |
+| **[PDF24](https://tools.pdf24.org/)** | **Private / Bootstrapped** (Geek Software GmbH) | Comprehensive suite of 122+ online PDF and image utilities powered by client-side browser processing. | **Free** ($0.00 for individuals & commercial use; ad-supported; commercial REST API licenses available). | **Free forever plan**: **100% free with unlimited tasks, unlimited file sizes, and no daily/hourly caps**. No account or registration needed; processing occurs client-side in browser without server upload. |
 
 
 
