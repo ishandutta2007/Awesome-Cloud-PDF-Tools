@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3366" />
+      <stop offset="50%" stop-color="#FF6B4A" />
+      <stop offset="100%" stop-color="#FFA41B" />
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="100%" stop-color="#4FACFE" />
+    </linearGradient>
+
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8E2DE2" />
+      <stop offset="100%" stop-color="#4A00E0" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.07)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glowRed" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="50" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="55" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+      <circle cx="40" cy="40" r="1.5" fill="rgba(255, 255, 255, 0.08)" />
+    </pattern>
+  </defs>
+
+  <style>
+    .code-font { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    .ui-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    
+    @keyframes pulseOrb1 {
+      0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.35; }
+      50% { transform: translate(40px, -20px) scale(1.15); opacity: 0.55; }
+    }
+    @keyframes pulseOrb2 {
+      0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.3; }
+      50% { transform: translate(-30px, 30px) scale(1.1); opacity: 0.5; }
+    }
+    @keyframes floatPill1 {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes floatPill2 {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(8px); }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.8; }
+    }
+    @keyframes dashMove {
+      to { stroke-dashoffset: -40; }
+    }
+
+    .orb-red { animation: pulseOrb1 9s ease-in-out infinite; transform-origin: center; }
+    .orb-cyan { animation: pulseOrb2 11s ease-in-out infinite; transform-origin: center; }
+    .pill-1 { animation: floatPill1 6s ease-in-out infinite; }
+    .pill-2 { animation: floatPill2 7s ease-in-out infinite; }
+    .dash-line { stroke-dasharray: 6 6; animation: dashMove 2s linear infinite; }
+    .pulse-badge { animation: pulseGlow 3s ease-in-out infinite; }
+  </style>
+
+  <!-- Deep Background -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+
+  <!-- Animated Glowing Ambient Lights (Behind Everything) -->
+  <circle class="orb-red" cx="200" cy="90" r="140" fill="#FF3366" filter="url(#glowRed)" />
+  <circle class="orb-cyan" cx="1020" cy="330" r="130" fill="#00F2FE" filter="url(#glowCyan)" />
+  <circle class="orb-cyan" cx="1100" cy="80" r="100" fill="#8E2DE2" filter="url(#glowPurple)" />
+  <circle class="orb-red" cx="100" cy="350" r="110" fill="#4A00E0" filter="url(#glowPurple)" />
+
+  <!-- Grid Overlay -->
+  <rect width="1200" height="420" fill="url(#grid)" />
+
+  <!-- Subtle Animated Connecting Flow Lines (Behind Content) -->
+  <path class="dash-line" d="M 50 340 C 300 370, 450 330, 600 350 S 900 370, 1150 330" fill="none" stroke="rgba(255, 107, 74, 0.25)" stroke-width="2" />
+  <path class="dash-line" d="M 80 80 C 350 40, 650 100, 950 50 S 1100 80, 1150 60" fill="none" stroke="rgba(0, 242, 254, 0.2)" stroke-width="1.5" />
+
+  <!-- Decorative Floating Feature Pills (Safe Side Positions) -->
+  <g class="pill-1" transform="translate(60, 200)">
+    <rect width="150" height="34" rx="17" fill="url(#cardGrad)" stroke="rgba(255, 51, 102, 0.4)" stroke-width="1.2" />
+    <circle cx="18" cy="17" r="4" fill="#FF3366" />
+    <text x="32" y="22" class="ui-font" font-size="12" font-weight="600" fill="#E2E8F0">Client-Side OCR</text>
+  </g>
+
+  <g class="pill-2" transform="translate(70, 250)">
+    <rect width="140" height="34" rx="17" fill="url(#cardGrad)" stroke="rgba(0, 242, 254, 0.4)" stroke-width="1.2" />
+    <circle cx="18" cy="17" r="4" fill="#00F2FE" />
+    <text x="32" y="22" class="ui-font" font-size="12" font-weight="600" fill="#E2E8F0">Self-Hostable</text>
+  </g>
+
+  <g class="pill-1" transform="translate(980, 195)">
+    <rect width="155" height="34" rx="17" fill="url(#cardGrad)" stroke="rgba(142, 45, 226, 0.5)" stroke-width="1.2" />
+    <circle cx="18" cy="17" r="4" fill="#A855F7" />
+    <text x="32" y="22" class="ui-font" font-size="12" font-weight="600" fill="#E2E8F0">Zero-Upload Privacy</text>
+  </g>
+
+  <g class="pill-2" transform="translate(995, 245)">
+    <rect width="140" height="34" rx="17" fill="url(#cardGrad)" stroke="rgba(255, 164, 27, 0.4)" stroke-width="1.2" />
+    <circle cx="18" cy="17" r="4" fill="#FFA41B" />
+    <text x="32" y="22" class="ui-font" font-size="12" font-weight="600" fill="#E2E8F0">REST &amp; CLI APIs</text>
+  </g>
+
+  <!-- FOREGROUND: High Visibility Center Content -->
+  <!-- Top Category Tag -->
+  <g transform="translate(600, 68)">
+    <rect x="-140" y="-16" width="280" height="32" rx="16" fill="rgba(255, 51, 102, 0.12)" stroke="rgba(255, 51, 102, 0.45)" stroke-width="1" />
+    <circle class="pulse-badge" cx="-116" cy="0" r="4.5" fill="#FF3366" />
+    <text x="-98" y="5" class="code-font" font-size="11" font-weight="700" fill="#FFA41B" letter-spacing="2">CURATED CLOUD TOOLKIT</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="150" text-anchor="middle" class="ui-font" font-size="52" font-weight="900" fill="url(#primaryGrad)" letter-spacing="-1">
+    Awesome-Cloud-PDF-Tools
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="195" text-anchor="middle" class="ui-font" font-size="21" font-weight="600" fill="#F8FAFC" letter-spacing="0.2">
+    The Complete Cloud &amp; Open-Source PDF Engineering Ecosystem
+  </text>
+
+  <!-- Tagline / Description -->
+  <text x="600" y="235" text-anchor="middle" class="ui-font" font-size="14.5" font-weight="400" fill="#94A3B8">
+    Curated SaaS Editors • Self-Hosted Docker Stacks • Browser Utilities • High-Performance Libraries
+  </text>
+
+  <!-- Feature Matrix Card in Bottom Center -->
+  <g transform="translate(600, 315)">
+    <rect x="-375" y="-34" width="750" height="68" rx="34" fill="rgba(17, 24, 39, 0.85)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.2" />
+    
+    <!-- Item 1 -->
+    <g transform="translate(-270, 2)">
+      <text x="0" y="-4" text-anchor="middle" class="ui-font" font-size="14" font-weight="700" fill="#F1F5F9">⚡ SaaS Platforms</text>
+      <text x="0" y="15" text-anchor="middle" class="ui-font" font-size="11" font-weight="500" fill="#64748B">Acrobat, Smallpdf, Sejda</text>
+    </g>
+
+    <line x1="-140" y1="-18" x2="-140" y2="20" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
+
+    <!-- Item 2 -->
+    <g transform="translate(0, 2)">
+      <text x="0" y="-4" text-anchor="middle" class="ui-font" font-size="14" font-weight="700" fill="#38BDF8">🐳 Self-Hosted &amp; Local</text>
+      <text x="0" y="15" text-anchor="middle" class="ui-font" font-size="11" font-weight="500" fill="#64748B">Stirling-PDF, PDF24, Gotenberg</text>
+    </g>
+
+    <line x1="140" y1="-18" x2="140" y2="20" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
+
+    <!-- Item 3 -->
+    <g transform="translate(270, 2)">
+      <text x="0" y="-4" text-anchor="middle" class="ui-font" font-size="14" font-weight="700" fill="#C084FC">🤖 AI &amp; Developer APIs</text>
+      <text x="0" y="15" text-anchor="middle" class="ui-font" font-size="11" font-weight="500" fill="#64748B">Docling, PDF.js, PyMuPDF</text>
+    </g>
+  </g>
+</svg>
