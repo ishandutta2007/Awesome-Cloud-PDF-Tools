@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cloud-PDF-Tools/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-PDF-Tools?style=for-the-badge&logo=apachespark&color=yellow" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-PDF-Tools/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-PDF-Tools?style=for-the-badge&logo=apachespark&color=yellow" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-PDF-Tools/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-PDF-Tools?style=for-the-badge&color=orange" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-PDF-Tools/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -78,42 +78,42 @@ A curated comparison of leading cloud-hosted PDF platforms, ranked by corporate 
 
 ## 💻 Open-Source GitHub Projects
 
-Explore the premier open-source cloud PDF toolkits, libraries, and self-hosted applications—**sorted in descending order by GitHub star count**. Each badge dynamically links directly to that repository's stargazers page.
+Explore the premier open-source cloud PDF toolkits, libraries, and self-hosted applications—**sorted in descending order by GitHub Stars_Count**. Each badge dynamically links directly to that repository's stargazers page.
 
-1. **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** [![GitHub Stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=social&color=white)](https://github.com/Stirling-Tools/Stirling-PDF/stargazers)  
+1. **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** [![GitHub_Stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=social&color=white)](https://github.com/Stirling-Tools/Stirling-PDF/stargazers)  
    **The #1 self-hosted PDF manipulation suite on GitHub.** A locally hosted, complete web application for merging, splitting, converting, OCR-ing, watermarking, redacting, and signing PDFs without cloud subscription fees. All document processing stays strictly within your Docker container or on-premise infrastructure. **Best for:** Teams and self-hosters wanting an autonomous, private, zero-subscription alternative to Adobe Acrobat and Smallpdf.
 
-2. **[Docling](https://github.com/DS4SD/docling)** [![GitHub Stars](https://img.shields.io/github/stars/DS4SD/docling?style=social&color=white)](https://github.com/DS4SD/docling/stargazers)  
+2. **[Docling](https://github.com/DS4SD/docling)** [![GitHub_Stars](https://img.shields.io/github/stars/DS4SD/docling?style=social&color=white)](https://github.com/DS4SD/docling/stargazers)  
    **IBM's cutting-edge document parsing & conversion library for Generative AI.** Parses complex PDF layouts, reading orders, tables, formulas, and figures with extreme precision into clean Markdown, JSON, or DoclingDocument formats. **Best for:** AI/RAG document pipelines, multimodal LLM ingestion, and automated structured data extraction from unstructured enterprise PDFs.
 
-3. **[PDF.js](https://github.com/mozilla/pdf.js)** [![GitHub Stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white)](https://github.com/mozilla/pdf.js/stargazers)  
+3. **[PDF.js](https://github.com/mozilla/pdf.js)** [![GitHub_Stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white)](https://github.com/mozilla/pdf.js/stargazers)  
    **Mozilla's universal browser-based PDF rendering standard.** Apache-2.0 licensed HTML5 and Canvas renderer powering Firefox and hundreds of web-based document viewers across the internet. Enables rich in-browser page rendering without native binaries or plugins. **Best for:** Frontend web applications needing fast, embedded PDF preview and navigation.
 
-4. **[Gotenberg](https://github.com/Gotenberg/gotenberg)** [![GitHub Stars](https://img.shields.io/github/stars/Gotenberg/gotenberg?style=social&color=white)](https://github.com/Gotenberg/gotenberg/stargazers)  
+4. **[Gotenberg](https://github.com/Gotenberg/gotenberg)** [![GitHub_Stars](https://img.shields.io/github/stars/Gotenberg/gotenberg?style=social&color=white)](https://github.com/Gotenberg/gotenberg/stargazers)  
    **A developer-friendly Docker-powered microservice for document conversion.** Orchestrates headless Chromium, LibreOffice, and PDF engines through an intuitive REST API to convert HTML, Markdown, and Office formats to PDF, as well as merge and convert to PDF/A. **Best for:** Microservice architectures and cloud backends requiring automated, stateless server-side PDF generation.
 
-5. **[PyMuPDF](https://github.com/pymupdf/PyMuPDF)** [![GitHub Stars](https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=social&color=white)](https://github.com/pymupdf/PyMuPDF/stargazers)  
+5. **[PyMuPDF](https://github.com/pymupdf/PyMuPDF)** [![GitHub_Stars](https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=social&color=white)](https://github.com/pymupdf/PyMuPDF/stargazers)  
    **Ultra-fast Python bindings for MuPDF.** High-performance PDF parsing, text extraction, page rendering, annotation management, and document transformation. Known for extreme processing speeds compared to pure-Python libraries. **Best for:** Python data pipelines, high-throughput batch extraction, and OCR pre-processing.
 
-6. **[pypdf](https://github.com/py-pdf/pypdf)** [![GitHub Stars](https://img.shields.io/github/stars/py-pdf/pypdf?style=social&color=white)](https://github.com/py-pdf/pypdf/stargazers)  
+6. **[pypdf](https://github.com/py-pdf/pypdf)** [![GitHub_Stars](https://img.shields.io/github/stars/py-pdf/pypdf?style=social&color=white)](https://github.com/py-pdf/pypdf/stargazers)  
    **The pure-Python PDF manipulation toolkit.** Capable of splitting, merging, cropping, encrypting, decrypting, rotating pages, and adding metadata with zero external dependencies. **Best for:** Lightweight Python microservices, serverless AWS Lambda functions, and portable script automations.
 
-7. **[pdfcpu](https://github.com/pdfcpu/pdfcpu)** [![GitHub Stars](https://img.shields.io/github/stars/pdfcpu/pdfcpu?style=social&color=white)](https://github.com/pdfcpu/pdfcpu/stargazers)  
+7. **[pdfcpu](https://github.com/pdfcpu/pdfcpu)** [![GitHub_Stars](https://img.shields.io/github/stars/pdfcpu/pdfcpu?style=social&color=white)](https://github.com/pdfcpu/pdfcpu/stargazers)  
    **High-throughput PDF processor written in Go.** Supports concurrent CLI operations and Go library integration for optimization, validation, splitting, merging, watermarking, stamping, and encryption. **Best for:** Go backend services, containerized pipelines, and DevOps CLI batch processing.
 
-8. **[pdf-lib](https://github.com/Hopding/pdf-lib)** [![GitHub Stars](https://img.shields.io/github/stars/Hopding/pdf-lib?style=social&color=white)](https://github.com/Hopding/pdf-lib/stargazers)  
+8. **[pdf-lib](https://github.com/Hopding/pdf-lib)** [![GitHub_Stars](https://img.shields.io/github/stars/Hopding/pdf-lib?style=social&color=white)](https://github.com/Hopding/pdf-lib/stargazers)  
    **The modern JavaScript PDF creation and manipulation engine.** MIT-licensed library capable of creating, modifying, and drawing on PDFs in any JavaScript runtime (Node.js, Deno, React Native, and in-browser). Handles form creation, fillable fields, and vector graphics. **Best for:** Full-stack JS/TS applications generating dynamic reports and invoices client-side or server-side.
 
-9. **[qpdf](https://github.com/qpdf/qpdf)** [![GitHub Stars](https://img.shields.io/github/stars/qpdf/qpdf?style=social&color=white)](https://github.com/qpdf/qpdf/stargazers)  
+9. **[qpdf](https://github.com/qpdf/qpdf)** [![GitHub_Stars](https://img.shields.io/github/stars/qpdf/qpdf?style=social&color=white)](https://github.com/qpdf/qpdf/stargazers)  
    **Content-preserving C++ command-line PDF transformer.** Specializes in structural inspection, linearization (web-fast streaming), structural repair, and low-level encryption/decryption without altering page content stream layout. **Best for:** System administrators, backend transformation pipelines, and high-integrity document repair.
 
-10. **[pdfme](https://github.com/pdfme/pdfme)** [![GitHub Stars](https://img.shields.io/github/stars/pdfme/pdfme?style=social&color=white)](https://github.com/pdfme/pdfme/stargazers)  
+10. **[pdfme](https://github.com/pdfme/pdfme)** [![GitHub_Stars](https://img.shields.io/github/stars/pdfme/pdfme?style=social&color=white)](https://github.com/pdfme/pdfme/stargazers)  
     **TypeScript-based PDF generation library and visual UI designer.** Provides both a visual drag-and-drop template designer for frontend web apps and a lightweight generator library that compiles templates into pixel-perfect PDFs. **Best for:** Web applications providing end-user customizable templates for certificates, labels, and contracts.
 
-11. **[Sejda SDK](https://github.com/torakiki/sejda)** [![GitHub Stars](https://img.shields.io/github/stars/torakiki/sejda?style=social&color=white)](https://github.com/torakiki/sejda/stargazers)  
+11. **[Sejda SDK](https://github.com/torakiki/sejda)** [![GitHub_Stars](https://img.shields.io/github/stars/torakiki/sejda?style=social&color=white)](https://github.com/torakiki/sejda/stargazers)  
     **The modular Java PDF manipulation engine.** The open-source AGPL-3.0 foundation powering PDFsam and Sejda web utilities. Features modular tasks for page reordering, compression, encryption, booklet creation, and document assembly. **Best for:** Enterprise Java backend applications and open-source document utilities.
 
-12. **[veraPDF](https://github.com/veraPDF/veraPDF-library)** [![GitHub Stars](https://img.shields.io/github/stars/veraPDF/veraPDF-library?style=social&color=white)](https://github.com/veraPDF/veraPDF-library/stargazers)  
+12. **[veraPDF](https://github.com/veraPDF/veraPDF-library)** [![GitHub_Stars](https://img.shields.io/github/stars/veraPDF/veraPDF-library?style=social&color=white)](https://github.com/veraPDF/veraPDF-library/stargazers)  
     **The industry-standard, European Commission-funded PDF/A validation engine.** Provides strict conformance validation and policy checking for PDF/A-1, PDF/A-2, PDF/A-3, and PDF/A-4 archival standards. **Best for:** Institutional archives, legal compliance systems, and regulatory document preservation workflows.
 
 ---
@@ -127,7 +127,7 @@ Contributions from developers, document architects, and the open-source communit
 3. 📝 **Add or update entries** in `README.md` following our consistent format:
    - Provide the project name and official link.
    - For SaaS tools: include verified starting tier pricing, free tier limits, and estimated company scale.
-   - For open-source tools: include repo link, social star badge, and architectural strengths.
+   - For open-source tools: include repo link, social Stars_Badge, and architectural strengths.
 4. 🚀 **Submit a Pull Request** with a concise description of your changes.
 
 ---
